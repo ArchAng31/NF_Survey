@@ -1,0 +1,8 @@
+databases/*
+home/*
+scraper/htm_sources/*
+scraper/old_htm_sources/*
+*.txt
+*.html
+*.sqlite
+*.mp4

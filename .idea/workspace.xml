@@ -1,7 +1,617 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52d447a6-f471-428e-8f08-722678ab19ae" name="Default" comment="" />
+    <list default="true" id="52d447a6-f471-428e-8f08-722678ab19ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OpenWPM" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_02_26a.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_02_26b.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_02_26c.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_02_26d.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_03_21a.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_03_21c.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_04_19a.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databases/crawl-data_04_19c.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/audio1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/audio2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video1.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video2.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video3.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video4.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video5.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video6.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video7.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video8.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/video9.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NF_browser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/databaseCombiner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/homeFingerprints.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/diffFiles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/diffURLs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/kidsScraper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/mainScraper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/scraper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/compareFiles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10005" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10056" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10105" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10118" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10256" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10271" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10306" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10375" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10398" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10463" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10499" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10504" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10606" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10659" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10673" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10695" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10702" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10741" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10757" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/10944" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11014" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1105" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11079" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11140" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11146" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11559" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11567" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1159" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11714" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11828" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/11881" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12123" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12339" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12443" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1252" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12549" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1255" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12762" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/12803" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/13335" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/13573" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1365" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1372" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1402" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1492" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1568" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1613" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1694" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/1701" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/180" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2125" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2150" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/25804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2595" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/26" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/26146" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/262" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2653" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/26835" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2700" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2729" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/27346" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2748" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2760" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/2856" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/29764" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/29809" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3063" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/31273" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/31574" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/31694" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3179" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/31851" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/32392" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/32473" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3269" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3278" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3327" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3519" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/35800" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/36103" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3652" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3653" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3675" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3761" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/384" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3916" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3947" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/3960" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4006" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4195" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/42023" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/43040" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/43048" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4366" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4370" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4426" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/45028" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/452" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/46553" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/46576" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/46588" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/47147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4734" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/47465" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4814" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/48744" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4922" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/4961" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/500" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5012" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/502675" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/51056" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5161" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52117" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5230" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5254" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52780" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52843" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/52858" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5286" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/53310" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5349" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5455" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5475" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5505" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5507" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/55774" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/561" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5685" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5763" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/58741" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/5875" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/58750" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/58807" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/58886" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/59433" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/60951" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/61115" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6218" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/63782" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6384" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6485" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6548" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6616" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6695" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6721" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/67673" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/67879" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6796" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6839" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6889" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6895" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6926" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6962" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/6998" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7018" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7077" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7153" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7243" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/72436" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7424" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7442" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7462" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/74652" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/751423" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/75405" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/75804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/75930" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7627" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7687" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/7700" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/77232" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/783" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8195" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8221" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8243" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/83" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/83059" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8646" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8654" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/869" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8711" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8883" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8933" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/89585" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/8985" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/90361" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9196" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9292" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9299" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9302" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9327" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9434" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/947" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9472" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9584" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9702" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/972" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9744" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9833" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9875" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9916" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/9994" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/g" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/k" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_1147300" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67596" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67597" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67598" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67599" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67602" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67605" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67608" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67611" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67624" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67635" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67659" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67687" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_67698" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_73340" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_74139" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_74253" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/kid_766671" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/l" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/q" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/r" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/s" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/t" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/u" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/w" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/x" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/y" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/htm_sources/z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/mainCrawlerJSON.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/neflixCategories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/1147300" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67596" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67597" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67598" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67599" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67602" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67605" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67608" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67611" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67624" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67635" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67659" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67687" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/67698" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/73340" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/74139" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/74253" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/766671" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/kids_htm_sources_03_21/Kids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10005" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10056" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10105" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10118" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10256" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10271" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10306" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10375" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10398" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10463" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10499" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10504" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10606" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10659" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10673" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10695" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10702" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10741" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10757" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/10944" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11014" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1105" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11079" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11140" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11146" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11177" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11559" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11567" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1159" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11714" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11828" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/11881" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12123" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12339" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12443" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1252" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12549" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1255" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12762" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/12803" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/13335" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/13573" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1365" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1372" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1402" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1492" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1568" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1613" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1694" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/1701" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/180" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2125" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2150" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/25804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2595" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/26" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/26146" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/262" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2653" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/26835" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2700" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2729" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/27346" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2748" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2760" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/2856" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/29764" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/29809" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3063" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/31273" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/31574" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/31694" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3179" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/31851" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/32392" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/32473" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3269" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3278" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3327" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3519" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/35800" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/36103" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3652" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3653" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3675" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3761" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/384" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3916" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3947" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/3960" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4006" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4195" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/42023" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/43040" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/43048" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4366" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4370" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4426" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/45028" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/452" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/46553" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/46576" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/46588" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/47147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4734" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/47465" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4814" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/48744" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4922" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/4961" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/500" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5012" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/502675" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/51056" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5161" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52117" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5230" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5254" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52780" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52843" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/52858" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5286" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/53310" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5349" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5455" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5475" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5505" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5507" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/55774" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/561" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5685" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5763" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/58741" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5875" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/58750" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/58807" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/58886" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/59433" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/5977" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/60951" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/61115" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6218" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/63782" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6384" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6485" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6548" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6616" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6695" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6721" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/67673" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/67879" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6796" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6839" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6889" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6895" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6926" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6962" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/6998" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7018" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7077" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7153" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7243" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/72436" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7424" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7442" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7462" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/74652" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/751423" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/75405" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/75804" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/75930" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7627" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7687" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/7700" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/77232" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/783" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/78367" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8195" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8221" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8243" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/83" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/83059" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8646" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8654" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/869" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8711" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8883" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8933" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/89585" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/8985" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/90361" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9147" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9196" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9292" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9299" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9302" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9327" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9434" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/947" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9472" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9584" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9702" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/972" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9744" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9833" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9875" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9916" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/9994" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/g" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/i" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/j" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/k" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/l" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/q" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/r" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/s" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/t" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/u" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/v" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/w" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/x" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/y" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/old_htm_sources/main_htm_sources_03_21/z" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/allResults_02_26.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/allResults_03_21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/kidsResults_02_26.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/kidsResults_03_21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/mainResults_03_21.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/mainResults_04_19_backup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/mainResults_04_19_withoutKids.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/extraResults/sitesVisited_04_19_withoutKids.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/mainResults_04_19.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scraper/results/sitesVisited_04_19.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/BrowserManager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/browser_commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/command_executor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/link_commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/profile_commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/utils/XPathUtil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/utils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/utils/firefox_profile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/utils/lso.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Commands/utils/webdriver_extensions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DataAggregator/DataAggregator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/deploy_browser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/deploy_chrome.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/deploy_firefox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/amazon_add_to_wish_list_button-1.10.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/download_youtube_videos_as_mp4-1.7.18.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/epubreader-1.4.2.4.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/evernote_web_clipper-5.9.1.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/firebug-1.11.0.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/flagfox-5.0.2.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/greasemonkey-1.15.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/lastpass.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/pinutil_addon.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/reddit_enhancement_suite-4.3.1.2.xpi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/firefox_extensions/supported_extensions.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/screen_resolutions.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/user_agent_strings.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/MITMProxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/cert/mitmproxy-ca.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/cert/mitmproxy-ca.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/cert/mitmproxy-ca.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/cert/mitmproxy-dhparam.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/cert8.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/deploy_mitm_proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/key3.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/mitm_commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/mitmproxy.crt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/mitmproxy.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/mitmproxy.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/SocketInterface.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/TaskManager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/default_settings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/demo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/demo2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/demo3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/lists_helper.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/resources_crawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/server.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/test2.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/OpenWPM_old/test_sites" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/duplicateFingerprints_04_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/duplicateFingerprints_04_22.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DataAggregator/__init__.py" afterPath="$PROJECT_DIR$/scraper/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/__init__.py" afterPath="$PROJECT_DIR$/scraper/Old_Python_Files/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="NF_Survey.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +630,12 @@
     <favorites_list name="NF_Survey" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="demo3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OpenWPM_old/demo3.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenWPM/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7311669">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -33,19 +643,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenWPM_old/demo2.py">
+      <file leaf-file-name="deploy_firefox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_firefox.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="32" />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="browser_commands.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Commands/browser_commands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="200" column="17" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NF_browser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NF_browser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26509574">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainCrawlerJSON.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scraper/mainCrawlerJSON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="365" column="34" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,13 +701,48 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/OpenWPM_old/demo3.py" />
+        <option value="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/deploy_mitm_proxy.py" />
+        <option value="$PROJECT_DIR$/OpenWPM_old/automation/Proxy/MITMProxy.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_chrome.py" />
+        <option value="$PROJECT_DIR$/NF_browser.py" />
+        <option value="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/deploy_firefox.py" />
+        <option value="$PROJECT_DIR$/OpenWPM_old/automation/DeployBrowsers/deploy_browser.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_browser.py" />
+        <option value="$PROJECT_DIR$/OpenWPM_old/automation/BrowserManager.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/BrowserManager.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/Proxy/MITMProxy.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/TaskManager.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/Commands/command_executor.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/test2.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/schema.sql" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/Commands/profile_commands.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/kill_and_restart_script" />
+        <option value="$PROJECT_DIR$/OpenWPM/restart_crawl_script" />
+        <option value="$PROJECT_DIR$/diffFiles.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/crawl_combiner.py" />
+        <option value="$PROJECT_DIR$/crawl_combiner.py" />
+        <option value="$PROJECT_DIR$/kidsCrawler/kidsCrawler.py" />
+        <option value="$PROJECT_DIR$/mainCrawler/mainCrawler.py" />
+        <option value="$PROJECT_DIR$/mainScraper/kidsScraper.py" />
+        <option value="$PROJECT_DIR$/mainScraper/mainScraper.py" />
+        <option value="$PROJECT_DIR$/mainScraper/scraper.py" />
+        <option value="$PROJECT_DIR$/scraper/mainScraper.py" />
+        <option value="$PROJECT_DIR$/scraper/mainCrawlerJSON_updated.py" />
+        <option value="$PROJECT_DIR$/compareFiles.py" />
+        <option value="$PROJECT_DIR$/scraper/compareFiles.py" />
+        <option value="$PROJECT_DIR$/scraper/diffURLs.py" />
+        <option value="$PROJECT_DIR$/databaseCombiner.py" />
+        <option value="$PROJECT_DIR$/scraper/mainCrawlerJSON.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_firefox.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/demo.py" />
+        <option value="$PROJECT_DIR$/OpenWPM/automation/Commands/browser_commands.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
     <option name="y" value="23" />
-    <option name="width" value="1149" />
+    <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -70,7 +752,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -89,7 +771,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -107,10 +788,6 @@
               <option name="myItemId" value="NF_Survey" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenWPM_old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -121,17 +798,203 @@
               <option name="myItemId" value="NF_Survey" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scraper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="/usr/bin/python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PycharmProjects/CodeWarz" />
+    <property name="SearchEverywhereHistoryKey" value="line num&#9;null&#9;null&#10;line &#9;ACTION&#9;EditorToggleShowLineNumbers&#10;show line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scraper/Old_Python_Files" />
+      <recent name="$PROJECT_DIR$/scraper" />
+      <recent name="$PROJECT_DIR$/Old_Python_Files" />
+      <recent name="$PROJECT_DIR$/mainScraper/results" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mainCrawler">
+    <configuration default="false" name="crawl_combiner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenWPM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/databaseCombiner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mainCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mainCrawler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mainCrawler/mainCrawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NF_Survey" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.crawl_combiner" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mainCrawler" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.mainCrawler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.crawl_combiner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52d447a6-f471-428e-8f08-722678ab19ae" name="Default" comment="" />
@@ -142,27 +1005,54 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="264" y="23" width="1149" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22551093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04397163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04397163" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22551093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -173,27 +1063,409 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/OpenWPM_old/automation/Proxy/MITMProxy.py</url>
+          <line>3</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OpenWPM_old/demo2.py">
+    <entry file="file://$PROJECT_DIR$/scraper/compareFiles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="32" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/diffURLs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="45" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding>
+            <element signature="e#184#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/TaskManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/deploy_mitm_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/BrowserManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="251" column="12" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenWPM_old/demo3.py">
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7311669">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#184#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/TaskManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="48" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/deploy_mitm_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/platform_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/MITMProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="107" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#184#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/deploy_mitm_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="39" selection-start-line="12" selection-start-column="4" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/platform_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/SocketInterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/MITMProxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72761196">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/deploy_mitm_proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/default_manager_params.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/default_browser_params.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/configure_firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7546012">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15509601">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Commands/profile_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14615385">
+          <caret line="165" column="40" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/BrowserManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="278" column="16" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Commands/command_executor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DataAggregator/LevelDBAggregator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DataAggregator/DataAggregator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="12" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/restart_crawl_script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30927834">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/TaskManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="390" column="93" selection-start-line="390" selection-start-column="90" selection-end-line="390" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/fingerprintOutput.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Proxy/mitm_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#184#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/mainScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="154" column="43" selection-start-line="154" selection-start-column="43" selection-end-line="154" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/compareFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/diffURLs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databaseCombiner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4138439">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+          <folding>
+            <element signature="e#25#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/kidsScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02209131">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3755523">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/mainCrawlerJSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="365" column="34" selection-start-line="365" selection-start-column="34" selection-end-line="365" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/Old_Python_Files/diffFiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110456556">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="110" column="15" selection-start-line="110" selection-start-column="15" selection-end-line="110" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/DeployBrowsers/deploy_firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenWPM/automation/Commands/browser_commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="200" column="17" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NF_browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26509574">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
